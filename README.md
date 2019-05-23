@@ -1,7 +1,32 @@
 # TCGA_survival_analysis
 
-Workflow for survival analysis of TCGA pancreatic cancer patients.
+## Description
 
-Work in progress and is not really functional yet.
+A workflow for survival analysis of cacner patients from the Cancer Genome Atlas project. This survival analysis is based off of mRNA expression levels.
+This workflow is a modified implementation of a similar procedure described on biostars.org: https://www.biostars.org/p/153013/
 
-See `survival_analysis.ipynb` for progress.
+The workflow is contained in the `survival_analysis.ipynb` jupyter notebook.
+
+## Requirements
+
+### Programming languages
+
+* Python 3.6.7
+* R 3.6.0
+
+(language versions are probably flexible)
+
+#### Python packages
+
+* Pandas
+* rpy2
+* Numpy
+* glob
+
+#### R libraries
+
+* DESeq2
+* survival
+* survminer
+
+
